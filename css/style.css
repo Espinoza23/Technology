@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+a{
+    text-decoration: none;
+}
+/*---HEADER---*/
+header{
+    background-image: linear-gradient(rgba(84,93,220,.9), rgba(96,171,245,.9)), url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.menu{
+    padding: 20px 0;
+}
+.container{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.logo{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 35px;
+    float: right;
+}
+
+nav{
+    background-color: #5cb8ff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    display: none;
+}
+.lista_menu{
+    list-style: none;
+    padding: 10px 40px;
+}
+
+.item_menu{
+    padding: 10px 0;
+}
+
+.link__menu{
+    color: #fff;
+    font-size: 1em;
+}
+.container_flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.title_banner{
+    font-size: 2.5em;
+}
+
+.description_banner{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.btn_trabajos{
+    background-color: #5cb8ff;
+    padding: 15px 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: .9em; 
+}
+
+/*---SECCION NOSOTROS----*/
+.nosotros{
+    padding: 40px 0;
+}
+.title_section{
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: center;
+    margin: .8em 0;
+}
+
+.nosotros .info_nosotros p{
+    padding: .6em 0;
+}
+/*SECCION-SERVICIOS*/
+.content_servicios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item_servicio{
+    width: 98%;
+    padding: 34px 30px 69px 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 40px;
+    position: relative;
+}
+.item_servicio:nth-child(odd){
+    background: linear-gradient(to top, #5055df, #6d68f3);
+}
+.item_servicio:nth-child(even){
+    background: linear-gradient(to top, #40a8f9, #5cb8ff);
+}
+.item_servicio h3{
+    font-size: 30px;
+}
+.icono_servicio{
+    float: right;
+    margin-top: 20px;
+}
+.item_servicio:after{
+    content: "";
+    background: url("../img/waves.png") no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+}
